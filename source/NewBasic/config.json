@@ -145,6 +145,18 @@
 					"name": "LOR",
 					"styleId": "lor1",
 					"visibility": true
+				},
+				{
+					"id": "1001-0",
+					"legend": false,
+					"name": "1001-0",
+					"visibility": false
+				},
+				{
+					"id": "1001-30",
+					"legend": false,
+					"name": "1001-30",
+					"visibility": false
 				}
 			]
 		}

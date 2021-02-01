@@ -1,5 +1,25 @@
 [
   {
+    "id": "1001-0",
+    "name": "Stadtplan",
+    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_alkis",
+    "typ": "WMS",
+    "layers": "0",
+    "format": "image/png",
+    "version": "2.0.0",
+    "coordinateSystem": "EPSG:25833"
+  },
+  {
+    "id": "1001-30",
+    "name": "Stadtplan",
+    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_alkis",
+    "typ": "WMS",
+    "layers": "30",
+    "format": "image/png",
+    "version": "2.0.0",
+    "coordinateSystem": "EPSG:25833"
+  },
+  {
     "id": "101",
     "name": "Stadtplan",
     "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_webatlasberlin",
@@ -400,13 +420,13 @@
     {
       "id": "11321",
       "name": "s_lor_bez",
-      "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_lor_bez",
+      "url": " 	https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_lor_plan",
       "typ": "WFS",
-      "featureType": "s_lor_bez",
+      "featureType": "s_lor_plan",
       "version": "1.1.0",
       "featureNS": "http://www.berlin.de/broker",
       "outputFormat": "XML",
-      "gfiAttributes": "ignore",
+      "gfiAttributes": "showAll",
       "layerAttribution": "nicht vorhanden",
       "legendURL": "",
       "hitTolerance": "",
