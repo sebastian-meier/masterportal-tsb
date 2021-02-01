@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1",
+    "name": "CSW HMDK Summary",
+    "url": "http://metaver.de/csw?service=CSW&version=2.0.2&request=GetRecordById&typeNames=csw:Record&elementsetname=summary",
+    "typ": "CSW"
+  },
+  {
+    "id": "3",
+    "name": "CSW HMDK Full",
+    "url": "http://metaver.de/csw?service=CSW&version=2.0.2&request=GetRecordById&typeNames=csw:Record&elementsetname=full",
+    "typ": "CSW"
+  },
+  {
+    "id" : "2",
+    "name" : "Metadaten-URL",
+    "url" : "http://metaver.de/trefferanzeige?docuuid=",
+    "typ" : "URL"
+  },
+  {
+    "id" : "10",
+    "name" : "OSM Suche",
+    "url" : "https://nominatim.openstreetmap.org/search?",
+    "typ" : "WFS"
+  },
+  {
+    "id" : "wfs_t_service",
+    "name" : "WFS-T-Service",
+    "url" : "https://tsb-tinyows.onrender.com",
+    "typ" : "WFS-T",
+    "format":"image/png",
+    "featureType": "tows:test_points",
+    "version": "1.1.0",
+    "featureNS": "https://tsb-tinyows.onrender.com/?service=WFS&version=1.1.0&request=DescribeFeatureType&Typename=tows:test_points",
+    "outputFormat": "XML",
+    "gfiAttributes": "showAll",
+    "layerAttribution": "nicht vorhanden",
+    "legend": true,
+    "datasets": []
+  },
+  {
+    "id" : "80002",
+    "name" : "Email Service by PHP",
+    "url" : "https://geoportal-hamburg.de/smtp/sendmail.php",
+    "typ" : "EmailService"
+  },
+  {
+    "id" : "99999",
+    "name" : "Print Service",
+    "url" : "https://geoportal.metropolregion.hamburg.de/mapfish_print_2.0",
+    "typ" : "PrintService"
+  },
+  {
+    "id": "mapfish",
+    "name": "Print Service Prod",
+    "url": "https://geoportal.metropolregion.hamburg.de/mapfish_print/print/",
+    "typ": "Print"
+  }
+]
